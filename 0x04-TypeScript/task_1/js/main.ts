@@ -10,3 +10,14 @@ export interface Teacher{
 export interface Directors extends Teacher{
     numberOfReports: number;
 }
+
+export interface printTeacherFunction{
+    (firstName: string, lastName: string): string;
+}
+
+export const printTeacher: printTeacherFunction = (firstName, lastName) =>{
+    let firstLetter: string = firstName.split('')[0];
+    return firstLetter + ". " + lastName;
+}
+
+
