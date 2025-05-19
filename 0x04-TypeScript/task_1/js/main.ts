@@ -26,7 +26,7 @@ interface StudentConstructor{
 }
 
 interface StudentClassInterface{
-    workOnHomeWork(): string;
+    workOnHomework(): string;
     displayName(): string;
 }
 
@@ -40,7 +40,7 @@ class StudentClass implements StudentClassInterface{
     }
 
 
-     workOnHomeWork(): string {
+     workOnHomework(): string {
         return "Currently working";
     }
 
