@@ -57,5 +57,12 @@ const executeWork = (employee: Director | Teacher): void => {
     }
 }
 
-executeWork(createEmployee(200));   // Getting to work
-executeWork(createEmployee(1000));
+type Subjects = "Math" | "History";
+
+const teachClass = (todayClass: Subjects): string =>{
+    if(todayClass === "Math" ){
+        return "Teaching Math";
+    }else{
+        return "Teaching History";
+    }
+}
