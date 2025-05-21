@@ -18,4 +18,3 @@ const updatedRow: RowElement = {
 const updatedRowID: RowID = CRUD.updateRow(newRowID, updatedRow);
 
 CRUD.deleteRow(newRowID);
-
