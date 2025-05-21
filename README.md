@@ -21,19 +21,6 @@ By the end of this project, you should be able to confidently explain:
 
 ---
 
-## 🗂️ Project Structure
-
-```
-├── src/             # TypeScript source files  
-├── interfaces/      # Custom interfaces  
-├── classes/         # TypeScript classes  
-├── utils/           # Utility functions and generics  
-├── index.html       # Entry point HTML  
-├── tsconfig.json    # TypeScript configuration  
-```
-
----
-
 ## 🛠️ Getting Started
 
 ### Prerequisites
