@@ -1,4 +1,4 @@
-/// <reference path="./Subject.ts">
+/// <reference path="./Subject.ts" />
 
 namespace Subjects{
     export interface Teacher {
@@ -7,7 +7,7 @@ namespace Subjects{
 
     export class React extends Subject{
         getRequirements(): string{
-            return "Here is the list of requirements for Cpp";
+            return "Here is the list of requirements for React";
         }
 
         getAvailableTeacher(): string {
